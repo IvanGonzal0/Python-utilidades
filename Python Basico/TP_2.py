@@ -233,7 +233,7 @@ def analizarDatos(listaNombres = [], listaSueldos = []):
                    "menor": None,
                    "pomedio": None}
 
-    #si cumplimos los 3 , calcular mayor salario, menor salario y el promedio de los salarios
+    #si cumplimos los 3 , calcular mayor salario, menor salario y el promedio de los salarios#
 
     cumple1 = primerFiltro(listaNombres, listaSueldos)
     cumple2 = segundoFiltro(listaSueldos)
